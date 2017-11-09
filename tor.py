@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect
 import praw
 app = Flask(__name__)
-r = praw.Reddit(client_id='e-ZdWMo3zWMqxA', client_secret="T0YrVREJw0CSHpRH5bbiCvEijlY", password="1234me", user_agent='ToR Scraper 0.2.0', username="e-dt")
+r = praw.Reddit(client_id='no', client_secret="no", password="no", user_agent='ToR Scraper 0.2.0', username="no")
 tor = r.subreddit('TranscribersOfReddit')
 already_seen=[] #ok, ok global vars are bad  
 def getpost():
